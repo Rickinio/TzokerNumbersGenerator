@@ -4,14 +4,14 @@ var randomizer = new Random(new Random().Next());
 
 do
 {
-    var number = randomizer.Next(0, 46);
+    var number = randomizer.Next(1, 46);
     uniqueNumbers.Add(number);
 
 } while (uniqueNumbers.Count < 30);
 
 do
 {
-    var number = randomizer.Next(0, 21);
+    var number = randomizer.Next(1, 21);
     uniqueTzokerNumbers.Add(number);
 
 } while (uniqueTzokerNumbers.Count < 6);
