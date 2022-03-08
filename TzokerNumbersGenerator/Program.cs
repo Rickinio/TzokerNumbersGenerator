@@ -29,7 +29,8 @@ for(int i = 0; i < 6; i++)
 
     } while (numbers.Count < 5);
 
-    var tzoker = uniqueTzokerNumbers.ElementAt(randomizer.Next(0, 6));
+    //var tzoker = uniqueTzokerNumbers.ElementAt(randomizer.Next(0, 6));
+    var tzoker = randomizer.Next(1, 21);
 
     Console.WriteLine($"{string.Join(" - ", numbers.OrderBy(n => n))}  -  Tzoker: {tzoker}");
     Console.WriteLine();
